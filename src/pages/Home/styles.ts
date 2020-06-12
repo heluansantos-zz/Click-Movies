@@ -35,6 +35,7 @@ export const TitleError = styled.Text`
   font-size: 20px;
   margin: 64px 5px 24px;
   color: #ddd;
+  align-self: center;
 `;
 
 export const TitleMovie = styled.Text`
