@@ -28,7 +28,7 @@ export const TitleMovie = styled.Text`
   font-size: 20px;
   margin: 10px 15px 10px;
   align-self: center;
-  color: #fff;
+  color: orange;
   font-family: "BalsamiqSans_400Regular";
 `;
 export const DescriptionMovie = styled.Text`
@@ -41,7 +41,7 @@ export const DescriptionMovie = styled.Text`
 export const DescriptionMovieRating = styled.Text`
   font-size: 25px;
   margin: 2px 10px 2px;
-  color: #d2691e;
+  color: orange;
   padding: 5px;
   font-family: "BalsamiqSans_400Regular";
 `;
@@ -59,7 +59,7 @@ export const HeaderView = styled.TouchableOpacity`
   background-color: rgb(47, 52, 55);
   padding: 2px;
   border-radius: 20px;
-  opacity: 0.6;
+  opacity: 0.9;
   width: 40px;
   margin-top: 10px;
 `;
@@ -71,11 +71,16 @@ export const TitleError = styled.Text`
 `;
 export const ButtonCreditos = styled.TouchableOpacity`
   background-color: #454d4b;
+  flex-direction: row;
+  justify-content: center;
 `;
 export const ButtonTextCreditos = styled.Text`
   font-size: 12px;
   text-align: center;
   padding: 3px;
-  color: #d5d5d5;
+  color: #ddd;
   font-family: "BalsamiqSans_400Regular";
+`;
+export const ViewIconInfo = styled.View`
+  top: 5px;
 `;

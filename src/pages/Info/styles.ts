@@ -41,7 +41,7 @@ export const DescriptionInfo = styled.Text`
 `;
 export const HeaderView = styled.TouchableOpacity`
   flex-direction: row;
-  margin: 25px 0px 24px;
+  margin: 25px 0px 20px;
   width: 330px;
 `;
 export const ClickOpen = styled.TouchableOpacity``;

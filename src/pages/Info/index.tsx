@@ -67,10 +67,10 @@ const Info = () => {
         <Ionicons
           name="ios-arrow-back"
           size={35}
-          style={{ marginRight: 50, bottom: 5 }}
-          color="#ddd"
+          style={{ marginRight: 70, bottom: 5 }}
+          color="orange"
         />
-        <TitleApp> Info Click Movies App </TitleApp>
+        <TitleApp> Click Movies App </TitleApp>
       </HeaderView>
       <Capa>
         <TitleInfo>Resumo</TitleInfo>
@@ -87,7 +87,7 @@ const Info = () => {
               name="imdb"
               size={18}
               style={{ marginRight: 5, marginLeft: 5, top: 2 }}
-              color="#ddd"
+              color="orange"
             />
             <IconsText>www.omdbapi.com </IconsText>
           </IconsView>
@@ -99,7 +99,7 @@ const Info = () => {
               name="linkedin-square"
               size={18}
               style={{ marginRight: 5, marginLeft: 5, top: 2 }}
-              color="#ddd"
+              color="orange"
             />
             <IconsText>Heluan Santos</IconsText>
           </IconsView>
@@ -110,7 +110,7 @@ const Info = () => {
               name="github"
               size={18}
               style={{ marginRight: 5, marginLeft: 5, top: 2 }}
-              color="#ddd"
+              color="orange"
             />
             <IconsText>heluansantos.github.io</IconsText>
           </IconsView>
@@ -122,7 +122,7 @@ const Info = () => {
               name="github"
               size={18}
               style={{ marginRight: 5, marginLeft: 5, top: 2 }}
-              color="#ddd"
+              color="orange"
             />
             <IconsText>github.com/heluansantos/Click-Movies</IconsText>
           </IconsView>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
-import { FontAwesome } from "@expo/vector-icons";
+import { FontAwesome, MaterialIcons } from "@expo/vector-icons";
 import axios from "axios";
 import {
   Container,
@@ -10,12 +10,14 @@ import {
   ButtonInput,
   ViewInputText,
   TitleMovie,
+  TitleSubApp,
   DescriptionMovie,
   ButtonCreditos,
   ButtonTextCreditos,
   TitleError,
   CapaScrollView,
   CapaImage,
+  ViewIconInfo,
 } from "./styles";
 
 interface Post {
@@ -26,7 +28,7 @@ interface Post {
 }
 
 const Home = () => {
-  const [searchText, setSearchText] = useState("man");
+  const [searchText, setSearchText] = useState("america");
   const [movie, setMovie] = useState<Post[]>([]);
   const navigation = useNavigation();
   const [value, onChangeText] = React.useState("");
@@ -62,7 +64,8 @@ const Home = () => {
 
   return (
     <Container>
-      <TitleApp>C l i c k M o v i e s</TitleApp>
+      <TitleSubApp> M o v i e s</TitleSubApp>
+      <TitleApp>C l i c k </TitleApp>
       <ViewInput>
         <ViewInputText
           maxLength={30}
@@ -93,7 +96,14 @@ const Home = () => {
         )}
       </CapaScrollView>
       <ButtonCreditos onPress={InfoClickMoviesApp}>
-        <ButtonTextCreditos>Click Movies App Info</ButtonTextCreditos>
+        <ButtonTextCreditos>Click Movies App </ButtonTextCreditos>
+        <ViewIconInfo>
+          <MaterialIcons
+            name="perm-device-information"
+            size={13}
+            color="orange"
+          />
+        </ViewIconInfo>
       </ButtonCreditos>
     </Container>
   );

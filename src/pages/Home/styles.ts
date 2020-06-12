@@ -25,16 +25,24 @@ export const CapaImage = styled.Image`
   left: 12px;
 `;
 export const TitleApp = styled.Text`
+  font-size: 36px;
+  margin: 23px 0px 18px;
+  color: orange;
+  align-self: center;
+  font-family: "Audiowide_400Regular";
+`;
+export const TitleSubApp = styled.Text`
   font-size: 26px;
-  margin: 35px 0px 18px;
+  margin: 50px 0px 18px;
   color: #ddd;
   align-self: center;
   font-family: "Audiowide_400Regular";
+  position: absolute;
 `;
 export const TitleError = styled.Text`
   font-size: 20px;
   margin: 64px 5px 24px;
-  color: #ddd;
+  color: orange;
   align-self: center;
 `;
 
@@ -53,7 +61,7 @@ export const TitleMovie = styled.Text`
 export const DescriptionMovie = styled.Text`
   font-size: 12px;
   margin: 5px 13px 5px;
-  color: #ddd;
+  color: orange;
   font-family: "Roboto_300Light_Italic";
 `;
 
@@ -80,12 +88,18 @@ export const ButtonInput = styled.TouchableOpacity`
   margin: 5px;
 `;
 
-export const ButtonCreditos = styled.TouchableOpacity``;
+export const ButtonCreditos = styled.TouchableOpacity`
+  flex-direction: row;
+  justify-content: center;
+  padding: 3px;
+  top: 4px;
+`;
+export const ViewIconInfo = styled.View`
+  top: 3px;
+`;
 export const ButtonTextCreditos = styled.Text`
   font-size: 12px;
   text-align: center;
-  padding: 3px;
-  top: 4px;
-  color: #d5d5d5;
+  color: #ddd;
   font-family: "BalsamiqSans_400Regular";
 `;

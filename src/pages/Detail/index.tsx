@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigation, useRoute } from "@react-navigation/native";
-import { Ionicons } from "@expo/vector-icons";
+import { Ionicons, MaterialIcons } from "@expo/vector-icons";
 import axios from "axios";
 import {
   Container,
@@ -15,6 +15,7 @@ import {
   ImageView,
   ButtonCreditos,
   ButtonTextCreditos,
+  ViewIconInfo,
 } from "./styles";
 
 interface Parametros {
@@ -69,7 +70,7 @@ const Detail = () => {
             <Ionicons
               name="ios-arrow-back"
               size={35}
-              color="#fff"
+              color="orange"
               style={{ left: 8 }}
             />
           </HeaderView>
@@ -95,7 +96,14 @@ const Detail = () => {
             </DescriptionMovieRating>
           </CapaInfo>
           <ButtonCreditos onPress={InfoClickMoviesApp}>
-            <ButtonTextCreditos>Click Movies App Info</ButtonTextCreditos>
+            <ButtonTextCreditos>Click Movies App</ButtonTextCreditos>
+            <ViewIconInfo>
+              <MaterialIcons
+                name="perm-device-information"
+                size={13}
+                color="orange"
+              />
+            </ViewIconInfo>
           </ButtonCreditos>
         </Capa>
       ) : (
