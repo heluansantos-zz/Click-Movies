@@ -28,6 +28,7 @@ export const TitleApp = styled.Text`
   font-size: 26px;
   margin: 35px 0px 18px;
   color: #ddd;
+  align-self: center;
   font-family: "Audiowide_400Regular";
 `;
 export const TitleError = styled.Text`

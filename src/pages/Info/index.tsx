@@ -75,11 +75,10 @@ const Info = () => {
       <Capa>
         <TitleInfo>Resumo</TitleInfo>
         <DescriptionInfo>
-          App desenvolvido para os amantes de filmes que buscam ficar sempre
-          atualizados sobre lançamentos atuais ou passados por meio da API OMDb
-          que é um serviço da Web RESTful para obter informações sobre filmes,
-          todo o conteúdo e imagens no site são contribuídos e mantidos por
-          usuários do próprio.
+          Aplicativo desenvolvido com TypeScript, React Native e Expo, para
+          obter informações sobre filmes por meio da API OMDb que é um serviço
+          da Web RESTful, todo o conteúdo e imagens no site são contribuídos e
+          mantidos por usuários do próprio.
         </DescriptionInfo>
         <TitleInfo>Fonte</TitleInfo>
         <ClickOpen onPress={openOmdb}>
