@@ -2,7 +2,7 @@
 
 <img src="./img1.png" width="250"> | <img src="./img2.png" width="250"> | <img src="./img3.png" width="250">
 
-Aplicativo desenvolvido com TypeScript, React Native e Expo,
+Aplicativo Click Movies desenvolvido com TypeScript, React Native e Expo,
 para obter informações sobre filmes por meio da API OMDb que
 é um serviço da Web RESTful,todo o conteúdo e imagens no site
 são contribuídos e mantidos por usuários do próprio.
